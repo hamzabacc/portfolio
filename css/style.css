@@ -70,13 +70,14 @@ li{
 .navlinks a:-webkit-any-link {
 	/*text-decoration: none;*/
 	color: white;
+	font-size: 20px;
 }
 .navbar{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   height: auto;
-  background-color: #4FC3F7;
+  background-color: #1565C0; /*#4FC3F7;*/
   align-items: top;
   justify-content: center;
   width: 100%;
@@ -243,7 +244,7 @@ textarea{
 	flex-direction: row;
 	flex-wrap: wrap;
 	height: auto;
-	background-color: #4FC3F7;
+	background-color: #1565C0; /*#4FC3F7;*/
 	align-items: top;
 	justify-content: center;
 	width: 100%;
