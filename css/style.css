@@ -1,0 +1,526 @@
+
+
+body{
+  font-family: 'Titillium Web', sans-serif;
+  background-color: white;/*#0066CC;*/
+  color: black;
+  font-size: 18px;
+  line-height: 35px;
+  padding-left: : 25px;
+  line-height: 10px;
+  
+}
+
+
+h1, h2, h3, h4, h5, h6, p, ul, li{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.header{
+	font-size: 35px;
+	line-height: 40px;
+	text-align: center;
+}
+
+
+
+h1, legend{
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 20px;
+}
+
+p {
+  line-height: 28px;
+  font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	line-height: 30px;
+}
+li{
+	text-indent: 0px;
+	margin-left: 45px;
+}
+
+.grid{
+	display: grid;
+	margin: 25px;
+}
+.grid-item{
+	border: 2px solid #4FC3F7;
+	padding: 10px;
+	margin: -1px;
+}
+
+.grid-item a{
+	text-decoration: underline;
+}
+
+
+.navlinks a:-webkit-any-link {
+	/*text-decoration: none;*/
+	color: white;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  background-color: #4FC3F7;
+  align-items: top;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+.navlinks{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-decoration: none;
+	padding: 0;
+
+}
+.footer p{
+	color: white;
+	text-align: center;
+}
+.navitem{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.active{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.skipcont a{
+  background: #4FC3F7;
+  color: white;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -60px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+.skipcont a:focus{
+  top:0;
+}
+
+.title{
+	font-size: 22px;
+	margin-left: 30px;
+/*PUT IN CODE FOR LI THAT IS CHILD OF OTHER LI
+https://www.w3schools.com/cssref/css_selectors.asp
+*/
+}
+li li {
+	font-size: 40px;
+}
+li ul{
+	text-indent: 50px;
+}
+
+#contents{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: top;
+}
+
+.section{
+	border: 2px solid #4FC3F7;
+	min-height: 400px;
+	width: 300px;
+	margin: 25px;
+	background-color: white; /*#0066CC;*/
+	padding-top: 50px;
+	
+
+}
+.boxtitle{
+	text-align: center;
+}
+
+
+.summary{
+	display: grid;
+	width: 1360px;
+	height: 400px;
+	grid-template-columns: 600px 600px;
+	grid-template-rows: auto;
+	justify-content: center;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #4FC3F7;
+	justify-items: end;
+	align-items: top;
+	grid-column-gap: 45px;
+}
+
+.summary h1{
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+
+.summary-grid{
+	height: 333px;
+	max-width: 600px;
+	max-height: 400px;
+	text-align: left;
+}
+
+.gallery{
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+  }
+
+.gallery > img{
+	margin: 4px;
+}
+
+a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+:focus{
+	border: 2px solid #4FC3F7;
+}
+
+#has-image{
+	grid-template-columns: 200px 200px;
+}
+#has-image img{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.contact{
+	display: grid;
+	line-height: 50px;
+	border: 2px solid #4FC3F7;
+	padding: 25px;
+	justify-content: center;
+	margin: auto;
+	margin-top: 50px;
+	width: 300px;
+}
+}
+
+input, textarea{
+	width: 200px;
+	font-size: 20px;
+}
+textarea{
+	line-height: 50px;
+	margin-top: 20px;
+}
+
+
+.footer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: auto;
+	background-color: #4FC3F7;
+	align-items: top;
+	justify-content: center;
+	width: 100%;
+	position: fixed;
+    width: 100%;
+    left:0;
+    bottom: 0;
+    z-index: 1;
+    margin-top: 100px;
+}
+.footer p{
+	color: white;
+	text-align: center;
+}
+.footerspace{
+	margin-top: 50px;
+}
+
+
+
+.header{
+  display: flex;
+  background-attachment: fixed; /* Parallax effect */
+  background-image: url("../images/headshot_cropped2.JPG");      /* Your code here - Link to header.jpg in the images folder */
+  background-position: top;  /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: 100%;       /* Parallax effect */
+  color: white;
+  height: 100px;                /* Parallax effect */
+}
+.header h1{
+	padding-top: 22px;
+	max-width: 400px;
+	font-size: 40px;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+ 	border-right: .15em solid orange; /* The typwriter cursor */
+  	white-space: nowrap; /* Keeps the content on a single line */
+  	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  	letter-spacing: .15em; /* Adjust as needed */
+  	animation: typing 4s steps(40, end),
+    blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+
+
+
+.summary{
+	display: grid;
+	width: 653px;
+	height: 800px;
+	grid-template-columns: 600px;
+	grid-template-rows: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 2px solid #4FC3F7;
+	grid-column-gap: 45px;
+}
+.summary-grid{
+	padding-left: 0px;
+	padding-top: 40px;
+}
+.summary-grid img{
+	width: 590px;
+}
+
+.readmore{
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.readmore a{
+	color: black;
+}
+
+.grid{
+	justify-content: center;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.grid-item{
+	width: 400px;
+}
+
+#resume{
+	width: 300px;
+	height: 600px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#has-image img{
+	width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 800px){
+
+#contents{
+	max-width: 800px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.summary{
+	padding-top: 50px;
+	display: grid;
+	width: 652px;
+	height: 800px;
+	grid-template-columns: auto;
+	grid-template-rows: 450px 250px;
+	justify-content: center;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: top;
+	grid-row-gap: 0px;
+
+}
+.summary img{
+	width:600px;
+}
+.summary-grid{
+	width: auto;
+	max-width: 1000px;
+	padding-left: 100px;
+	padding-right: 100px;
+	max-height: 600px;
+	padding-top: 0px;
+}
+
+#resume{
+	width: 500px;
+	height: 600px;
+	padding-left:100px;
+	padding-right:100px;
+}
+
+.grid-item{
+	width: 700px;
+}
+
+#has-image{
+	column-width: 500px;
+}
+
+#has-image img{
+	width: 500px;
+	justify-content: center;
+}
+
+.contact{
+	width: 700px;
+}
+
+input, textarea{
+	width: 600px;
+	font-size: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1416px){
+
+#contents{
+	max-width: 100%
+}
+
+.summary{
+	display: grid;
+	width: 1360px;
+	height: 400px;
+	grid-template-columns: 600px 600px;
+	grid-template-rows: auto;
+	justify-content: center;
+	margin-top: 50px;
+	padding-top: 0px;
+}
+
+.summary-grid{
+	height: 333px;
+	max-width: 600px;
+	max-height: 400px;
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 33px;
+	padding-bottom: 33px;
+}
+.summary-grid img{
+	width:500px;
+}
+
+.grid-item{
+	width: 1400px;
+}
+
+#resume{
+	width: 1380px;
+	height: 600px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#has-image{
+	column-width: 600px;
+}
+
+.contact{
+	width: 1400px;
+}
+input, textarea{
+	width: 1200px;
+}
+
+
+
+}
+
+
+
+
+
+@media screen and (prefers-reduced-motion: reduce){
+  html{
+      scroll-behavior: auto; /* Removes scroll animation */
+  }
+
+  .skipcont a{
+    position: absolute;
+    top: -40px;
+    -webkit-transition: default;/* Your code here - set to default setting */
+    transition: default;/* Your code here - set to default setting */
+    z-index: 1;
+  }
+
+  .skipcont a:focus{
+    top:0;
+  }
+
+  .header h1{
+  	animation: none;
+  	top: 0px;
+  	color: black;
+  }
+
+  .header{
+  	background-attachment: scroll;
+  }
+}
