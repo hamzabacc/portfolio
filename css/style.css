@@ -224,14 +224,16 @@ a:hover{
 	border: 2px solid #1565C0;
 	padding: 25px;
 	justify-content: center;
+	justify-items: center;
+	width: 80%;
+	min-width: 300px;
 	margin: auto;
 	margin-top: 50px;
-	width: 300px;
-}
+	max-width: 1400px;
 }
 
 input, textarea{
-	width: 200px;
+	width: 300px;
 	font-size: 20px;
 }
 textarea{
@@ -417,18 +419,14 @@ textarea{
 	justify-content: center;
 }
 
-.contact{
-	width: 700px;
-}
-
-input, textarea{
-	width: 600px;
-	font-size: 20px;
-}
 
 
 .gallery img{
 	 width: 28%;
+}
+
+input, textarea{
+	width: 600px;
 }
 
 }
@@ -485,15 +483,13 @@ input, textarea{
 	max-width: 550px;
 }
 
-.contact{
-	width: 1400px;
-}
-input, textarea{
-	width: 1200px;
-}
 
 .gallery img{
 	width: 15%;
+}
+
+input, textarea{
+	width: 1100px;
 }
 
 
