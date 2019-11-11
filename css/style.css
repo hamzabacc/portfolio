@@ -199,6 +199,7 @@ li ul{
 
 .gallery > img{
 	margin: 4px;
+	width: 200px;
 }
 
 a:hover{
