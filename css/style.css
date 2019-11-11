@@ -57,7 +57,7 @@ li{
 	margin: 25px;
 }
 .grid-item{
-	border: 2px solid #4FC3F7;
+	border: 2px solid #1565C0;
 	padding: 10px;
 	margin: -1px;
 }
@@ -143,7 +143,7 @@ li ul{
 }
 
 .section{
-	border: 2px solid #4FC3F7;
+	border: 2px solid #1565C0;
 	min-height: 400px;
 	width: 300px;
 	margin: 25px;
@@ -167,7 +167,7 @@ li ul{
 	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	border: 2px solid #4FC3F7;
+	border: 2px solid #1565C0;
 	justify-items: end;
 	align-items: top;
 	grid-column-gap: 45px;
@@ -206,7 +206,7 @@ a:hover{
 	font-weight: bold;
 }
 :focus{
-	border: 2px solid #4FC3F7;
+	border: 2px solid #1565C0;
 }
 
 #has-image{
@@ -220,7 +220,7 @@ a:hover{
 .contact{
 	display: grid;
 	line-height: 50px;
-	border: 2px solid #4FC3F7;
+	border: 2px solid #1565C0;
 	padding: 25px;
 	justify-content: center;
 	margin: auto;
@@ -310,7 +310,6 @@ textarea{
 	grid-template-rows: auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	border: 2px solid #4FC3F7;
 	grid-column-gap: 45px;
 }
 .summary-grid{
