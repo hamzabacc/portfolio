@@ -199,7 +199,7 @@ li ul{
 
 .gallery > img{
 	margin: 4px;
-	width: 200px;
+	width: 40%;
 }
 
 a:hover{
@@ -338,7 +338,7 @@ textarea{
 }
 
 .grid-item{
-	width: 400px;
+	min-width: 400px;
 }
 
 #resume{
@@ -349,7 +349,8 @@ textarea{
 }
 
 #has-image img{
-	width: 400px;
+	min-width: 400px;
+	width: 100%;
 }
 
 
@@ -406,7 +407,8 @@ textarea{
 }
 
 .grid-item{
-	width: 700px;
+	min-width: 700px;
+	max-width: 1060px;
 }
 
 #has-image{
@@ -414,7 +416,8 @@ textarea{
 }
 
 #has-image img{
-	width: 700px;
+	min-width: 500px;
+	max-width: 550px;
 	padding-left: auto;
 	padding-right: auto;
 	justify-content: center;
@@ -427,6 +430,11 @@ textarea{
 input, textarea{
 	width: 600px;
 	font-size: 20px;
+}
+
+
+.gallery img{
+	 width: 28%;
 }
 
 }
@@ -471,7 +479,7 @@ input, textarea{
 }
 
 .grid-item{
-	width: 1400px;
+	max-width: 1600px;
 }
 
 #resume{
@@ -486,7 +494,7 @@ input, textarea{
 }
 
 #has-image img{
-	width: 500px;
+	max-width: 550px;
 }
 
 .contact{
@@ -496,6 +504,9 @@ input, textarea{
 	width: 1200px;
 }
 
+.gallery img{
+	width: 15%;
+}
 
 
 }
