@@ -286,7 +286,7 @@ textarea{
  	border-right: .15em solid orange; /* The typwriter cursor */
   	white-space: nowrap; /* Keeps the content on a single line */
   	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  	letter-spacing: .01em; /* Adjust as needed */
+  	letter-spacing: .15em; /* Adjust as needed */
   	animation: typing 4s steps(40, end),
     blink-caret .5s step-end infinite;
 }
@@ -366,11 +366,6 @@ textarea{
 
 
 @media screen and (min-width: 800px){
-
-
-.header h1{
-	letter-spacing: .15em;
-}
 
 #contents{
 	max-width: 800px;
