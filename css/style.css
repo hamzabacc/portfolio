@@ -342,10 +342,10 @@ textarea{
 }
 
 #resume{
-	width: 300px;
+	width: 99%;
 	height: 600px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #has-image img{
@@ -399,12 +399,6 @@ textarea{
 	padding-top: 0px;
 }
 
-#resume{
-	width: 500px;
-	height: 600px;
-	padding-left:100px;
-	padding-right:100px;
-}
 
 .grid-item{
 	min-width: 700px;
@@ -479,15 +473,9 @@ input, textarea{
 }
 
 .grid-item{
-	max-width: 1600px;
+	max-width: 1400px;
 }
 
-#resume{
-	width: 1380px;
-	height: 600px;
-	padding-left:10px;
-	padding-right:10px;
-}
 
 #has-image{
 	column-width: 600px;
