@@ -413,7 +413,9 @@ textarea{
 }
 
 #has-image img{
-	width: 500px;
+	width: 700px;
+	padding-left: auto;
+	padding-right: auto;
 	justify-content: center;
 }
 
@@ -480,6 +482,10 @@ input, textarea{
 
 #has-image{
 	column-width: 600px;
+}
+
+#has-image img{
+	width: 500px;
 }
 
 .contact{
