@@ -355,7 +355,10 @@ textarea{
 	width: 100%;
 }
 
-
+#mucc{
+	max-height: 500px;
+	max-width: 500px;
+}  
 
 
 
@@ -413,7 +416,7 @@ textarea{
 
 #has-image img{
 	min-width: 500px;
-	max-width: 550px;
+	max-width: 650px;
 	padding-left: auto;
 	padding-right: auto;
 	justify-content: center;
@@ -480,7 +483,7 @@ input, textarea{
 }
 
 #has-image img{
-	max-width: 550px;
+	max-width: 650px;
 }
 
 
